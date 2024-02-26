@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.menusup {
+    position: absolute top ;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.menutop3 ul li{
+    display:inline-flex;
+    border: solid 2px black;
+    text-align: center;
+    justify-content: center;
+}
+.menutop3{
+    display: flex;
+    justify-content: center;
+}
+.contenido{
+    padding: 0%;
+    margin: 0%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+.contenido div{
+    background-size: cover;
+    
+    
+}
+.menuinf{
+    position: absolute bottom;
+    padding: 0%;
+    margin: 0px;
+    display: flex;
+    align-items:normal;
+    justify-content: space-between;
+    background-color: lightgray;
+    
+}
+.menuinf h2{
+    color: blue;
+    margin: 0px;
+}
+.menuinf ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
